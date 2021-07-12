@@ -1,0 +1,63 @@
+@import "../node_modules/slick-carousel/slick/slick.scss";
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/container";
+@import "base/font-family";
+@import "base/reset";
+@import "base/transition";
+
+@import "components/banners";
+@import "components/cart-sidebar";
+@import "components/loading";
+@import "components/menu";
+@import "components/menu-side";
+@import "components/product";
+@import "components/quantity-selector";
+@import "components/subpages-sidebar";
+@import "components/top-nav";
+@import "components/ui";
+@import "components/wishlist-sidebar";
+@import "components/zoom-image";
+
+@import "layouts/content";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/product-detail";
+@import "layouts/shop";
+@import "layouts/shop-quickview";
+
+@import "pages/checkout-complete";
+@import "pages/checkout";
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-button {
+  background: #f59e0b;
+  border: 1px solid rgb(119, 116, 116);
+  height: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #d97706;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f59e0b;
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::selection {
+  background: #f59e0b;
+}
